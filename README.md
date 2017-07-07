@@ -1,2 +1,2 @@
 # UtilsProject
-Project usefull to use primitive data 
+Project useful to use primitive data 

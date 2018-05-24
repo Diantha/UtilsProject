@@ -17,9 +17,6 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 
 
-
-
-@Stateless
 public class PrimitiveDataFunctions {
 
 	public Date addHoursToDateFormat(String dateInput,int quantity) throws ParseException

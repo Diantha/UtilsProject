@@ -356,11 +356,6 @@ public class PrimitiveDataFunctions {
 		long differenza = fine-inizio;
 		if(differenza < 0){
 			throw new Exception();
-//			logF.errorForThrowNewException("La data finale non puo' essere antecedente alla data odierna", WSErrorCode.ERR_GENERIC, "nam.ws.controller.GestioneMarche", ", data finale immessa: " + to_start);
-//			String msg = "La data finale non puo' essere antecedente alla data odierna";
-//			int error = WSErrorCode.ERR_GENERIC;
-//			log.error(msg + " (" + error + "), data finale immessa: " + to_start);
-//			throw new WSException(error, msg);
 		}
 
 	}

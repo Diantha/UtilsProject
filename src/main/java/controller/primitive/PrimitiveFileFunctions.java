@@ -39,10 +39,6 @@ public class PrimitiveFileFunctions {
 			return del;
 		}catch(Exception e){
 			throw new Exception();
-			//String msg = "Non e' stato possibile eliminare il file : "+fileTodelet.toString();
-//						int error = WSErrorCode.ERR_FILE_NOT_FOUND;
-//						log.error(msg + " (" + error + ")");
-//						throw new WSException(error, msg);
 		}
 	}
 
@@ -134,14 +130,6 @@ public class PrimitiveFileFunctions {
 	}
 	
 	public void convertStringToByte(byte[] input, String pathOutPutFile) throws IOException{
-			// convert file to byte[]
-			//byte[] bFile = readBytesFromFile("C:/Users/l.cattalani/Desktop/poste.xml");
-
-			//java nio
-			//byte[] bFile = Files.readAllBytes(new File("C:\\temp\\testing1.txt").toPath());
-			//byte[] bFile = Files.readAllBytes(Paths.get("C:\\temp\\testing1.txt"));
-
-			// save byte[] into a file
 			Path path = Paths.get(pathOutPutFile);
 			Files.write(path, input);
 	}
